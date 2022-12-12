@@ -2,7 +2,7 @@
 
 # Missingness
 ## 1. R Script (REDCapMissingSyntax.R)
-  * This script generates a file that contains the REDCap syntax for calculated fields that count the number of missing items per form, accounting for branching logic. The script file <i>REDCapMissingSyntax.R</i> contains code that define a function name **misscounter**, with the following 4 arguments:
+  * This script generates a file that contains the REDCap syntax for calculated fields that count the number of missing items per form, accounting for branching logic. The script file <i>REDCapMissingSyntax.R</i> contains code that defines a function named **misscounter**, with the following 4 arguments:
     * dictionaryfile: the data dictionary CSV file for the REDCap project 
     * outpath: the filepath where you would like the syntax file to be written
     * ignoreform: vector of forms to be ignored
