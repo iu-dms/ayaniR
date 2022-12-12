@@ -7,6 +7,7 @@
     * outpath: the filepath where you would like the syntax file to be written
     * ignoreform: vector of forms to be ignored
     * ignoretype: vector of REDCap field types to be ignored
+  * See https://github.com/iu-dms/ayaniR/blob/main/ExampleFunctionCall.R for an example call of the **misscounter** function.
 
 ## 2. Output file
    * output file named "missingsyntax_YYYY-MM-DD.csv" will be structured with 1 calculated field per form, and contain the necessary columns to easily add to an existing REDCap data dictionary. The field names will all begin with the prefix "missing_", which will be concatenated with the REDCap form name. These rows can then be quickly pasted into an existing REDCap data dictionary (e.g., and the last row in each form).
