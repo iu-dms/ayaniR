@@ -100,9 +100,6 @@ checkbox2 <- checkbox %>%
 checkbox_ready <- checkbox2 %>% 
   select(c(n, field_name, form_name, field_type, equation))
 
-test <- checkbox2 %>% 
-  filter(field_name=="lec5_life20")
-
 othertypes2 <- othertypes %>% 
   mutate(equation1=paste0('([', field_name, "]= '') " )) %>% 
   mutate(equation=paste0('if (', logic2,' ', equation1, ", 1, 0)" ))
