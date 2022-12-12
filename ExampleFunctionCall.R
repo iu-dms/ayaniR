@@ -1,4 +1,4 @@
-source("MissingSyntax.R")
+source("REDCapMissingSyntax.R")
 
 dictionary <- "MyDataDictionary.csv"
 out <- "MyOutputDirectory"
